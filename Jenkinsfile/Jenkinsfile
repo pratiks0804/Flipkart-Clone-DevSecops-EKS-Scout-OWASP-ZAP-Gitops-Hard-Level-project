@@ -28,7 +28,7 @@ pipeline {
 
         stage("Git Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/pratiks0804/Flipkart-Clone-DevSecops-Terraform-EKS-Harbor-Scout-OWASP-ZAP-Gitops-Hard-Level-project.git'
+                git branch: 'main', url: 'https://github.com/pratiks0804/Flipkart-Clone-DevSecops-EKS-Scout-OWASP-ZAP-Gitops-Hard-Level-project.git'
             }
         }
 
